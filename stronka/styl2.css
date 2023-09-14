@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+}
+
+#left {
+    text-align: center;
+    height: 400px;
+    background-color: snow;
+    width: 70%;
+    order: 1; /* Zamień kolejność left i right */
+}
+
+#left2 {
+    height: 400px;
+    background: snow;
+    font-size: 150%;
+    width: 70%;
+    order: 1; /* Zamień kolejność left2 i right */
+}
+
+#right {
+    height: 150px;
+    background-color: steelblue;
+    color: white;
+    width: 30%;
+    order: 2; /* Zamień kolejność right i left */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#right2 {
+    height: 350px;
+    background-color: steelblue;
+    color: white;
+    width: 30%;
+    order: 2; /* Zamień kolejność right2 i left2 */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#right3 {
+    height: 300px;
+    background-color: snow;
+    color: white;
+    text-align: center;
+    width: 30%;
+    order: 2; /* Zamień kolejność right3 i left2 */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+footer {
+    background-color: steelblue;
+    color: white;
+    clear: both;
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+}
+
+h2 {
+    font-size: 250%;
+    margin: 20px 0;
+}
+
+img {
+    padding: 4px;
+}
+
+img:hover {
+    padding: 3px;
+    border: 1px solid steelblue;
+}
