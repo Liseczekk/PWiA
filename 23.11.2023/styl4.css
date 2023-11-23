@@ -1,0 +1,35 @@
+
+header, footer {
+    background-color: #AF4448;
+    color: white;
+    text-align: center;
+    height: 20px;
+}
+h3{
+    margin: 0;
+}
+h4{
+    margin: 0;
+}
+section {
+    background-color: #FFA4A2;
+    height: 650px;
+    width: 50%;
+    margin: 0px;
+}
+button {
+    background-color: #AF4448;
+    color: white;
+    margin: 10px;
+    padding: 5px;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+    font-style: Helvetica
+
+}
+main {
+    display: flex;
+    width: 100%;
+}
