@@ -1,0 +1,56 @@
+* {
+    font-family: Helvetica;
+}
+
+#baner, #stopka{
+ background: #00838F; 
+ color: white; 
+ padding: 5px; 
+ font-size: 130%; 
+ text-align: center;
+}
+.left-column {
+    background: white;
+    width: 55%;
+    float: left;
+    clear: both;
+}
+
+#lewy1{
+    height: 150px;
+
+
+}
+#lewy2{
+    height: 300px;
+}
+
+#prawy{
+background: #4F838F;
+width: 45%;
+height: 450px;
+text-align: center;
+float: right;
+}
+#stopka{
+clear: both;
+}
+img {
+    box-shadow: 10px 10px 7px dimgray;
+    margin: 20px;
+}
+
+table, td, th{
+    border: 1px solid #4fb3bf;
+    border-collapse: collapse;
+}
+table {
+    margin: auto;
+    width: 80%;
+}
+td, th{
+    padding: 4px;
+}
+tr:hover{
+    background-color: #4fb3bf;
+}
