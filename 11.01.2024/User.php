@@ -21,7 +21,7 @@ class User
 
     private function hashPassword(string $password)
     {
-        // Tutaj można użyć algorytmu haszującego, na przykład password_hash
+        
         $this->hashedPassword = password_hash($password, PASSWORD_DEFAULT);
     }
 
@@ -42,7 +42,7 @@ class User
 
     public function getPassword(): string
     {
-        // Zwracanie zahaszowanego hasła
+        
         return $this->hashedPassword;
     }
 
